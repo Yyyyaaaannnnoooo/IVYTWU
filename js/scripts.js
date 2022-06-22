@@ -99,7 +99,7 @@ function type_speak(term) {
     type_index++
     check_scroll()
     if (type_index >= term.length) clearInterval(type_interval)
-  }, 5)
+  }, 50)
 }
 
 // function that scrolls down when text reachse bottom of div
